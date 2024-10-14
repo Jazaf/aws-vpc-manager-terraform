@@ -11,7 +11,7 @@ This project represent how to create and manage a VPC on AWS using Terraform.
 1. Clone the repository.
 2. Create a 'terraform.tfvars' file and fill in your AWS credentials and CIDR blocks:
 
-^^^hcl
+```hcl
 aws_access_key = "your-access-key"
 aws_secret_key = "your-secret-key"
 vpc_cidr_block = "10.0.0.0/16"
